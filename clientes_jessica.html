@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+</head>
+<body>
+    <script>
+var ciadade1 = "Salvador";
+var cidade2= "Curitiba";
+var cidade3 = "Campo Grande";
+var cidade4= "São Paulo"
+var cidade5= "Belo Horizonte";
+
+var clienteBA = 11;
+var clienteCG = 10;
+var clienteCT = 8;
+var clienteSP = 12;
+var clienteBH = 23;
+
+var fBA = 1329;
+var fCG = 2412;
+var fCT = 626;
+var fSP = 3950;
+var fBH = 2950;
+
+var concatenacao = "Na cidade de " + ciadade1 + ", Jéssica possui " + clienteBA + 
+" clientes, em "  + cidade2 + " possui " + clienteCT + ", em "  + cidade3 + " possui " + clienteCG +
+", em "  + cidade4 + " possui " + clienteSP + " e em "  + cidade5 + " possui " + clienteBH + " clientes." ;
+
+var soma = "A soma dos clientes é de " + (clienteBA + clienteBH +clienteCG + clienteSP + clienteCT);
+
+var fatmedioBA = Math.round(fBA /clienteBA) 
+var fatmedioCG = Math.round(fCG /clienteCG)
+var fatmedioCT = Math.round(fCT /clienteCT)
+var fatmedioSP = Math.round(fSP /clienteSP)
+var fatmedioBH = Math.round(fBH /clienteBH)
+
+
+document.write(concatenacao + "<br>");
+document.write(soma + "<br>"+ "<br>" + "<br>");
+document.write("Exercicio 5" + "<br>");
+document.write("Faturamento médio por cliente:"+ "<br>" );
+document.write("Salvador: R$" + fatmedioBA + "<br>");
+document.write(cidade2 + ": R$" + fatmedioCT + "<br>");
+document.write(cidade3 + ": R$" + fatmedioCG + "<br>");
+document.write(cidade4 + ": R$" + fatmedioSP + "<br>");
+document.write(cidade5 + ": R$" + fatmedioBH + "<br>");
+    </script>
+</body>
+</html>
